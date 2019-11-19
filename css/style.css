@@ -1,0 +1,107 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/materialicons.woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+.img1 {
+  margin-top: -15px;
+  padding: 10px;
+  background-image: url("/img/bannerbola.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img2 {
+  background-image: url("/img/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 350px;
+}
+.img3 {
+  background-image: url("/img/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 350px;
+  margin-bottom: -15px;
+}
+.header{
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Style dari Blog  */
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.responsive-image {
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+}
+
+.section{
+	padding-bottom: 50px;
+	
+}
+
+.apptext{
+	color: #ffffff;
+	text-align: center;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+#ABC {
+      background-color: #37474f;
+      width: 100%;
+      height: auto;
+    }
+.page-footer{
+	background-color: #ff6f00;
+}
+
+/* endstyle blog */
+
+@media (max-width: 990px) {
+  .resizeimg {
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .resizeimg {
+    width: auto;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logoo{
+    width: 130px;
+    height: auto;
+  }
+}

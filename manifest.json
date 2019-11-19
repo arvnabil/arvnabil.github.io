@@ -1,0 +1,28 @@
+{
+    "name": "Aplikasi PWA Nbola",
+    "short_name": "PWA Nbola",
+    "description": "PWA Nbola",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#0288d1",
+    "theme_color": "#01579b",
+    "icons": [
+        {
+            "src": "icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },{
+            "src": "apple-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }, {
+            "src": "apple-icon-152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        }, {
+            "src": "ms-touch-icon-144x144-precomposed.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }],
+    "gcm_sender_id": "383031459182"
+}
